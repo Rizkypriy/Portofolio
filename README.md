@@ -40,8 +40,8 @@ Aplikasi ini merupakan implementasi sistem web berbasis **Modern Dark Tech** yan
 
 ## 🔗 Tautan Penting Proyek
 
-- 🌐 **Live Preview (Demo Web)**: [https://rizkypriy.github.io/Portofolio/](https://rizkypriy.github.io/Portofolio/) *(atau URL Vercel)*
-- 🎨 **Tautan Desain Figma**: [Buka Desain Figma](https://www.figma.com/design/your-figma-file-id-here/Portofolio-Sistem-Industri)
+- 🌐 **Live Preview (Demo Web)**: [https://rizkyportofolio-ochre.vercel.app/](https://rizkyportofolio-ochre.vercel.app/)
+- 🎨 **Tautan Desain Figma**: [Buka Desain Figma](https://www.figma.com/design/2JgOLKHQfH7yYwrTUIDfAT/Portofolio?node-id=0-1&t=XQPXn6XALatYXsaz-1)
 - 📺 **Tautan Video Presentasi YouTube**: [Tonton Video Demo YouTube](https://youtube.com/watch?v=your-demo-video-id)
 - 📁 **Tautan Repositori GitHub**: [https://github.com/Rizkypriy/Portofolio](https://github.com/Rizkypriy/Portofolio)
 
