@@ -1,0 +1,12 @@
+================================================================================
+DIREKTORI LAPORAN PRAKTIKUM PROYEK AKHIR INDUSTRI
+================================================================================
+Mahasiswa : Rizky Priyatama Putra Sugito
+NIM       : 43240461
+
+Letakkan berkas laporan praktikum proyek akhir industri Anda di dalam folder ini dengan nama:
+-> Laporan Projek Akhir.pdf
+
+Format yang didukung:
+- PDF (Portable Document Format)
+================================================================================

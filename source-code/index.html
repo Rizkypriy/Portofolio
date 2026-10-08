@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Data Analyst & Data Management - Rizky Priyatama. Mengolah data mentah menjadi wawasan bisnis yang tajam melalui Excel, Python, SQL, dan Tableau.">
+  <meta name="author" content="Rizky Priyatama">
+  <title>Rizky Priyatama | Data Analyst & Data Management</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- Ambient Light Orbs -->
+  <div class="ambient-glow ambient-glow-1"></div>
+  <div class="ambient-glow ambient-glow-2"></div>
+  <div class="ambient-glow ambient-glow-3"></div>
+
+  <!-- Cursor Spotlight Effect -->
+  <div id="cursor-spotlight"></div>
+
+  <!-- ==========================================================================
+       HEADER & NAVBAR
+       ========================================================================== -->
+  <header class="navbar-wrapper" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand-logo" aria-label="Rizky Priyatama Home">
+        Rizky Priyatama<span class="dot">.</span><span class="tag">data</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-cta-btn">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Menu Button -->
+      <div class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================== -->
+  <main>
+
+    <!-- SECTION 1: HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        
+        <!-- Left Column: Bio & CTA -->
+        <div class="hero-text-content">
+          <div class="hero-badge">
+            <span class="status-dot"></span>
+            <span>AVAILABLE FOR HIRE & PROJECTS</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="name-highlight">Rizky Priyatama</span>
+          </h1>
+
+          <div class="hero-subtitle">
+            <span class="bracket">[</span>
+            <span id="typing-text">Data Analyst & Data Management</span>
+            <span class="hero-cursor"></span>
+            <span class="bracket">]</span>
+          </div>
+
+          <p class="hero-desc">
+            Mahasiswa S1 Sistem Informasi dengan ketertarikan kuat dalam pencatatan, validasi, pengelolaan, serta analisis data untuk menghasilkan informasi yang mendukung pengambilan keputusan. Terbiasa menggunakan <strong>Microsoft Excel, Python, SQL, dan Tableau</strong>.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn-pill btn-primary-gradient">
+              <span>Lihat Proyek</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn-pill btn-outline-glass">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Unduh CV</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Profile Visual Frame -->
+        <div class="hero-visual-wrapper">
+          <div class="hero-glass-frame" id="tilt-card">
+            
+            <!-- Avatar Portal with Halo -->
+            <div class="avatar-portal">
+              <div class="avatar-portal-inner">
+                <img src="assets/images/Kiki_1.jpg" alt="Foto Profil Rizky Priyatama" onerror="this.onerror=null; this.src='assets/images/Kiki.jpg';">
+              </div>
+            </div>
+
+            <!-- Floating Pill 1: Award Badge -->
+            <div class="floating-badge badge-top-right">
+              <div class="badge-icon">🏆</div>
+              <div class="badge-label-group">
+                <span class="badge-title">Juara 3 Kompetisi</span>
+                <span class="badge-subtitle">Data Viz UBM 2024</span>
+              </div>
+            </div>
+
+            <!-- Floating Pill 2: Tableau Specialist -->
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon">📊</div>
+              <div class="badge-label-group">
+                <span class="badge-title">Tableau Specialist</span>
+                <span class="badge-subtitle">Interactive Dashboards</span>
+              </div>
+            </div>
+
+            <!-- Floating Pill 3: Tech Stack -->
+            <div class="floating-badge badge-bottom-right">
+              <div class="badge-icon">⚡</div>
+              <div class="badge-label-group">
+                <span class="badge-title">Python & SQL</span>
+                <span class="badge-subtitle">Data Wrangling</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SECTION 2: ABOUT ME SECTION -->
+    <section class="about-section" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">GET TO KNOW ME</div>
+          <h2 class="section-title">About <span class="highlight">Me</span></h2>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Main Narrative Card -->
+        <div class="glass-card about-bio-box">
+          <p>
+            Saya adalah mahasiswa <strong>S1 Sistem Informasi STMIK IKMI Kota Cirebon</strong> dengan ketertarikan mendalam pada bidang administrasi, pengelolaan data, <em>data analyst</em>, <em>data management</em>, dan rekapitulasi data. Berbekal pengalaman pencatatan dan validasi data secara teliti, saya berfokus mengolah data mentah menjadi wawasan intuitif untuk mendukung pengambilan keputusan strategis.
+          </p>
+          <p>
+            Keahlian teknis saya meliputi pengolahan spreadsheet dengan <strong>Microsoft Excel & Google Sheets</strong>, pemrograman <strong>Python & SQL</strong>, serta perancangan dashboard visualisasi data menggunakan <strong>Tableau</strong>. Saya mengombinasikan kemampuan analitis, ketelitian tinggi, dan kolaborasi tim yang solid untuk menuntaskan setiap proyek data secara akurat.
+          </p>
+        </div>
+
+        <!-- Subgrid: Education & Certifications -->
+        <div class="about-subgrid">
+          
+          <!-- Column 1: Education -->
+          <div class="about-col">
+            <h3 class="about-col-title">
+              <div class="icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              </div>
+              <span>Education History</span>
+            </h3>
+
+            <div class="edu-card-list">
+              <!-- Item 1 -->
+              <div class="edu-item-card">
+                <div class="edu-header">
+                  <h4 class="edu-degree">S1 Sistem Informasi</h4>
+                  <span class="edu-badge">2024 - Sekarang</span>
+                </div>
+                <div class="edu-institution">STMIK IKMI Cirebon</div>
+                <p class="edu-desc">
+                  Mendalami pengolahan database, logika algoritma data, analisis statistik bisnis, sistem penunjang keputusan (SPK), dan implementasi dashboard BI.
+                </p>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="edu-item-card">
+                <div class="edu-header">
+                  <h4 class="edu-degree">Ilmu Pengetahuan Sosial (IPS)</h4>
+                  <span class="edu-badge">2020 - 2023</span>
+                </div>
+                <div class="edu-institution">SMAN 4 Kota Cirebon</div>
+                <p class="edu-desc">
+                  Membangun dasar logika riset, pemahaman statistik kuantitatif sosial, serta ketelitian rekapitulasi data demografi dan ekonomi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Certifications -->
+          <div class="about-col">
+            <h3 class="about-col-title">
+              <div class="icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              </div>
+              <span>Certificates & Achievements</span>
+            </h3>
+
+            <div class="cert-list">
+              <!-- Cert 1 -->
+              <div class="cert-item">
+                <div class="cert-content">
+                  <div class="cert-badge-icon">🏆</div>
+                  <div>
+                    <h4 class="cert-title">Juara 3 Kompetisi Data Visualisasi</h4>
+                    <p class="cert-issuer">Universitas Bunda Mulia • 2024</p>
+                  </div>
+                </div>
+                <button class="cert-verify-btn" onclick="openCertModal('Juara 3 Kompetisi Data Visualisasi', 'Universitas Bunda Mulia', 'Meraih peringkat ke-3 nasional dalam kompetisi visualisasi data dengan karya IKDS (Indeks Kesiapan Digitalisasi Sekolah).')">
+                  <span>Verify</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </button>
+              </div>
+
+              <!-- Cert 2 -->
+              <div class="cert-item">
+                <div class="cert-content">
+                  <div class="cert-badge-icon">📜</div>
+                  <div>
+                    <h4 class="cert-title">Data Analyst Mini Bootcamp</h4>
+                    <p class="cert-issuer">DQLab • 2024</p>
+                  </div>
+                </div>
+                <button class="cert-verify-btn" onclick="openCertModal('Data Analyst Mini Bootcamp', 'DQLab', 'Sertifikasi kompetensi pengolahan SQL, exploratory data analysis, data cleaning, dan data visualization.')">
+                  <span>Verify</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </button>
+              </div>
+
+              <!-- Cert 3 -->
+              <div class="cert-item">
+                <div class="cert-content">
+                  <div class="cert-badge-icon">🐍</div>
+                  <div>
+                    <h4 class="cert-title">Python Essentials 1</h4>
+                    <p class="cert-issuer">Cisco Networking Academy • 2024</p>
+                  </div>
+                </div>
+                <button class="cert-verify-btn" onclick="openCertModal('Python Essentials 1', 'Cisco Networking Academy', 'Fondasi pemrograman Python, struktur data list/dictionary, algoritma dasar, dan manipulasi data.')">
+                  <span>Verify</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </button>
+              </div>
+
+              <!-- Cert 4 -->
+              <div class="cert-item">
+                <div class="cert-content">
+                  <div class="cert-badge-icon">🎓</div>
+                  <div>
+                    <h4 class="cert-title">Data Analyst Certificate</h4>
+                    <p class="cert-issuer">OpenLearn • 2024</p>
+                  </div>
+                </div>
+                <button class="cert-verify-btn" onclick="openCertModal('Data Analyst Certificate', 'OpenLearn', 'Pemahaman statistik bisnis, pengumpulan data terstruktur, dan interpretasi grafik keputusan.')">
+                  <span>Verify</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SECTION 3: FEATURED PROJECTS -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">MY WORK & CASE STUDIES</div>
+          <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+          <p class="section-desc">
+            Studi kasus analisis data komprehensif, mulai dari data preparation, pemodelan statistik/SPK, hingga dashboard interaktif Tableau.
+          </p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- PROJECT CARD 1: IKDS -->
+          <div class="project-card">
+            <div class="project-visual-header">
+              <span class="project-badge-tag">Award Winner • Juara 3</span>
+              
+              <!-- Interactive Line Chart SVG -->
+              <svg class="project-visual-svg" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Grid Lines -->
+                <line x1="30" y1="40" x2="370" y2="40" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 4"/>
+                <line x1="30" y1="90" x2="370" y2="90" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 4"/>
+                <line x1="30" y1="140" x2="370" y2="140" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 4"/>
+                
+                <!-- Area Fill -->
+                <path d="M40 150 L110 110 L180 135 L260 65 L360 85 V170 H40 Z" fill="url(#blue-gradient-area)" opacity="0.25"/>
+                
+                <!-- Line -->
+                <path class="line-chart-path" d="M40 150 L110 110 L180 135 L260 65 L360 85" stroke="#0ea5e9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <!-- Dots with glow -->
+                <circle cx="110" cy="110" r="5" fill="#38bdf8" filter="drop-shadow(0 0 6px #0ea5e9)"/>
+                <circle cx="180" cy="135" r="5" fill="#38bdf8" filter="drop-shadow(0 0 6px #0ea5e9)"/>
+                <circle cx="260" cy="65" r="7" fill="#10b981" filter="drop-shadow(0 0 8px #10b981)"/>
+                <circle cx="360" cy="85" r="5" fill="#38bdf8" filter="drop-shadow(0 0 6px #0ea5e9)"/>
+
+                <defs>
+                  <linearGradient id="blue-gradient-area" x1="0" y1="65" x2="0" y2="170" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0ea5e9" stop-opacity="0.8"/>
+                    <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">IKDS - Indeks Kesiapan Digitalisasi Sekolah</h3>
+              <p class="project-desc">
+                Menganalisis kesiapan digitalisasi sekolah tingkat provinsi berdasarkan 3 dimensi (User, School, Regional Readiness). Menemukan disparitas wilayah & merancang dashboard visualisasi interaktif Tableau (Meraih Juara 3 UBM).
+              </p>
+
+              <div class="tech-stack-row">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Pandas</span>
+                <span class="tech-pill">SQL</span>
+                <span class="tech-pill">Tableau</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://public.tableau.com/views/IKDSINDONESIA1/DashboarIKDS1?:language=en-US&sid=&redirect=auth&:display%20count=n&:origin=viz%20share%20link" target="_blank" rel="noopener noreferrer" class="btn-action-primary btn-primary-gradient">
+                  <span>Interactive Dashboard</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </a>
+                <a href="https://github.com/Rizkypriy" target="_blank" rel="noopener noreferrer" class="btn-action-secondary" title="View Source on GitHub">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT CARD 2: REKOMENDASI LAPTOP -->
+          <div class="project-card">
+            <div class="project-visual-header">
+              <span class="project-badge-tag">Decision Support System</span>
+              
+              <!-- Interactive Bar Chart SVG -->
+              <svg class="project-visual-svg" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Baseline -->
+                <line x1="30" y1="165" x2="370" y2="165" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+                
+                <!-- Animated Bars -->
+                <g class="bar-anim-1">
+                  <rect x="55" y="100" width="36" height="65" rx="6" fill="#0ea5e9"/>
+                </g>
+                <g class="bar-anim-2">
+                  <rect x="120" y="55" width="36" height="110" rx="6" fill="#10b981"/>
+                </g>
+                <g class="bar-anim-3">
+                  <rect x="185" y="85" width="36" height="80" rx="6" fill="#0ea5e9"/>
+                </g>
+                <g class="bar-anim-1">
+                  <rect x="250" y="40" width="36" height="125" rx="6" fill="#10b981"/>
+                </g>
+                <g class="bar-anim-2">
+                  <rect x="315" y="70" width="36" height="95" rx="6" fill="#38bdf8"/>
+                </g>
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Sistem Penunjang Keputusan Rekomendasi Laptop</h3>
+              <p class="project-desc">
+                Mengembangkan SPK rekomendasi laptop terbaik mahasiswa menggunakan metode SMART/SAW terhadap 50 alternatif berdasarkan multi-kriteria: harga, RAM, kapasitas storage, benchmark CPU & GPU.
+              </p>
+
+              <div class="tech-stack-row">
+                <span class="tech-pill">Microsoft Excel</span>
+                <span class="tech-pill">Metode SMART</span>
+                <span class="tech-pill">Tableau</span>
+                <span class="tech-pill">Multi-Criteria</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://public.tableau.com/views/Dashboard_Rekomendasi_Laptop/Dashboard_Rekomendasi_Laptop?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener noreferrer" class="btn-action-primary btn-emerald-gradient">
+                  <span>Interactive Dashboard</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </a>
+                <a href="https://github.com/Rizkypriy" target="_blank" rel="noopener noreferrer" class="btn-action-secondary" title="View Source on GitHub">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SECTION 4: SKILLS & TOOLS -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">TECHNICAL EXPERTISE</div>
+          <h2 class="section-title">Skills & <span class="highlight">Tools</span></h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-card-icon">🔍</span>
+              <h3 class="skill-card-title">Data & Analytics</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip">Data Entry</span>
+              <span class="skill-chip">Data Validation</span>
+              <span class="skill-chip">Data Cleaning</span>
+              <span class="skill-chip">Data Preparation</span>
+              <span class="skill-chip">Data Management</span>
+              <span class="skill-chip">Kemampuan Analitis</span>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-card-icon">💻</span>
+              <h3 class="skill-card-title">Programming & Query</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip">SQL (PostgreSQL/MySQL)</span>
+              <span class="skill-chip">Python (Pandas, NumPy)</span>
+              <span class="skill-chip">Git & GitHub</span>
+              <span class="skill-chip">Struktur Data & Logika</span>
+              <span class="skill-chip">Jupyter / Colab</span>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-card-icon">📊</span>
+              <h3 class="skill-card-title">Visualization & BI</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip">Tableau Desktop</span>
+              <span class="skill-chip">Interactive Dashboard</span>
+              <span class="skill-chip">Data Storytelling</span>
+              <span class="skill-chip">Decision Analysis</span>
+              <span class="skill-chip">Business Intelligence</span>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-card-icon">🛠️</span>
+              <h3 class="skill-card-title">Tools & Platforms</h3>
+            </div>
+            <div class="skill-chips-list">
+              <span class="skill-chip">Microsoft Excel (Advanced)</span>
+              <span class="skill-chip">Google Sheets</span>
+              <span class="skill-chip">Microsoft Word</span>
+              <span class="skill-chip">Microsoft PowerPoint</span>
+              <span class="skill-chip">Sirekap KPU</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SECTION 5: WORK EXPERIENCE -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">CAREER & CONTRIBUTIONS</div>
+          <h2 class="section-title">Work <span class="highlight">Experience</span></h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline-container">
+          
+          <!-- Experience Item 1: Data Analyst Intern -->
+          <div class="timeline-node">
+            <div class="timeline-dot"></div>
+            <div class="timeline-box">
+              <div class="timeline-box-header">
+                <div>
+                  <h3 class="timeline-role">Data Analyst Intern</h3>
+                  <div class="timeline-company">PT Vinix Seven Aurum</div>
+                </div>
+                <span class="timeline-date-badge">Oktober 2026 – Januari 2027</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Mengolah raw data, menangani missing values, dan manipulasi data di Excel (Pivot Table & Lookup).</li>
+                <li>Eksplorasi pola data dan uji hipotesis statistik menggunakan Python (Pandas, Matplotlib, Seaborn).</li>
+                <li>Membuat dashboard interaktif di Tableau dan Google Looker Studio untuk laporan manajemen.</li>
+                <li>Memanfaatkan AI prompting untuk efisiensi eksplorasi data dan pembuatan kode analisis.</li>
+              </ul>
+
+              <div class="timeline-tech-stack">
+                <span class="timeline-tech-pill">Python</span>
+                <span class="timeline-tech-pill">SQL</span>
+                <span class="timeline-tech-pill">Tableau</span>
+                <span class="timeline-tech-pill">Google Looker Studio</span>
+                <span class="timeline-tech-pill">Microsoft Excel</span>
+                <span class="timeline-tech-pill">Orange</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Item 2: KPPS -->
+          <div class="timeline-node">
+            <div class="timeline-dot"></div>
+            <div class="timeline-box">
+              <div class="timeline-box-header">
+                <div>
+                  <h3 class="timeline-role">Anggota KPPS (Data & Rekapitulasi)</h3>
+                  <div class="timeline-company">Komisi Pemilihan Umum (KPU) - TPS Kota Cirebon</div>
+                </div>
+                <span class="timeline-date-badge">Februari 2024</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Mencatat, memverifikasi, dan mengelola kehadiran pemilih, pendistribusian surat suara, serta penghitungan suara untuk memastikan keakuratan data 100%.</li>
+                <li>Memvalidasi dokumen pemilu termasuk Formulir C-Hasil dengan memastikan integritas dan konsistensi data sebelum dilaporkan.</li>
+                <li>Melakukan entri data dan rekapitulasi cepat hasil penghitungan suara ke dalam aplikasi digital Sirekap sesuai SOP resmi.</li>
+                <li>Bekerja sama erat dalam tim TPS untuk mendukung penghitungan suara yang transparan, presisi, dan tepat waktu di bawah tenggat waktu ketat.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SECTION 6: GET IN TOUCH / CONTACT -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">LET'S CONNECT</div>
+          <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Column 1: Info & Details -->
+          <div class="contact-info-panel">
+            <div>
+              <h3 class="contact-panel-title">Mari Berdiskusi Proyek & Data!</h3>
+              <p class="contact-panel-desc">
+                Saya terbuka untuk peluang karir di bidang Data Analytics, Data Entry, Management Data, maupun kolaborasi proyek visualisasi data. Jangan ragu untuk menghubungi saya melalui kontak di bawah ini.
+              </p>
+
+              <div class="contact-methods">
+                
+                <!-- Email -->
+                <a href="mailto:rizkypriy28@gmail.com" class="contact-method-card">
+                  <div class="contact-icon-box">✉️</div>
+                  <div class="contact-text-group">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-val">rizkypriy28@gmail.com</span>
+                  </div>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/62882000355065" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+                  <div class="contact-icon-box">💬</div>
+                  <div class="contact-text-group">
+                    <span class="contact-label">WhatsApp / Phone</span>
+                    <span class="contact-val">+62 882-0003-55065</span>
+                  </div>
+                </a>
+
+                <!-- Location -->
+                <div class="contact-method-card">
+                  <div class="contact-icon-box">📍</div>
+                  <div class="contact-text-group">
+                    <span class="contact-label">Location</span>
+                    <span class="contact-val">Cirebon, Jawa Barat, Indonesia</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links-bar">
+              <a href="https://www.linkedin.com/in/rizky-priyatama/" target="_blank" rel="noopener noreferrer" class="social-link-btn" title="LinkedIn Profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+              <a href="https://github.com/Rizkypriy" target="_blank" rel="noopener noreferrer" class="social-link-btn" title="GitHub Profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+              <a href="https://public.tableau.com/app/profile/rizky.priyatama.putra.sugito/vizzes" target="_blank" rel="noopener noreferrer" class="social-link-btn" title="Tableau Public Profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M7 12h10M12 7v10"></path></svg>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Column 2: Interactive Contact Form -->
+          <div class="contact-form-card">
+            <form id="portfolio-contact-form">
+              
+              <div class="form-row-2col">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Nama Lengkap</label>
+                  <input type="text" id="contact-name" class="form-control" placeholder="Nama Anda" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Alamat Email</label>
+                  <input type="email" id="contact-email" class="form-control" placeholder="nama@email.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subjek</label>
+                <input type="text" id="contact-subject" class="form-control" placeholder="Diskusi Proyek Data / Kesempatan Kerja" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Pesan</label>
+                <textarea id="contact-message" class="form-control" rows="4" placeholder="Tuliskan pesan atau detail kebutuhan Anda di sini..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit-form" id="submit-btn">
+                <span>Kirim Pesan</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+
+              <div class="form-toast" id="form-toast-alert"></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand-logo">
+        Rizky Priyatama<span class="dot">.</span><span class="tag">data</span>
+      </div>
+
+      <div class="footer-copy">
+        © 2026 <span class="author">Rizky Priyatama</span>. All rights reserved. Built with HTML5, CSS3, & JavaScript.
+      </div>
+
+      <button class="back-to-top-btn" id="btn-back-to-top" aria-label="Scroll back to top">
+        <span>Back to Top</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+      </button>
+    </div>
+  </footer>
+
+
+  <!-- ==========================================================================
+       CERTIFICATE VERIFY MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="cert-modal">
+    <div class="modal-card">
+      <button class="modal-close-btn" onclick="closeCertModal()" aria-label="Close modal">&times;</button>
+      <div class="modal-icon" id="modal-icon">🏆</div>
+      <h3 class="modal-title" id="modal-title">Certificate Title</h3>
+      <div class="modal-subtitle" id="modal-issuer">Issued by Organization</div>
+      <p class="modal-desc" id="modal-desc">Certificate description details.</p>
+      
+      <div style="display: flex; gap: 0.8rem; justify-content: flex-end;">
+        <button class="btn-pill btn-primary-gradient" onclick="closeCertModal()">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==========================================================================
+       JAVASCRIPT LOGIC & ANIMATIONS
+       ========================================================================== -->
+    <script src="script.js"></script>
+
+</body>
+</html>

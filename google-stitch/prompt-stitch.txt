@@ -1,0 +1,54 @@
+================================================================================
+CATATAN PROMPT PERANCANGAN KONSEP ANTARMUKA SISTEM INDUSTRI (GOOGLE STITCH)
+================================================================================
+Nama Pengembang : Rizky Priyatama Putra Sugito
+NIM             : 43240461
+Proyek          : Web Portofolio & Sistem Dashboard Data Analyst Industri
+Tools           : Google Stitch AI / Stitch Design Exploration
+Tanggal         : 8 Oktober 2026
+
+--------------------------------------------------------------------------------
+1. PROMPT EKSPLORASI UTAMA (HERO SECTION & INDUSTRIAL DASHBOARD)
+--------------------------------------------------------------------------------
+"Design a modern, high-tech industrial data management and analytics portfolio 
+landing page. Dark futuristic aesthetic with deep slate background (#080C16), 
+electric cyan (#0EA5E9) and emerald green (#10B981) glowing accents. 
+
+Hero section features:
+- Professional headline: 'Transforming Raw Data into Strategic Business Value'
+- Interactive metric badges (e.g., 99.4% Data Accuracy, 120k+ Records Processed, 
+  45+ Automated Reports)
+- Glassmorphic card preview of real-time supply chain and predictive maintenance KPI
+- Smooth gradient CTA buttons for 'Explore Projects' and 'Download Resume'
+- High contrast, accessible typography using Plus Jakarta Sans and Fira Code."
+
+--------------------------------------------------------------------------------
+2. PROMPT SISTEM FITUR & SHOWCASE PROYEK INDUSTRI
+--------------------------------------------------------------------------------
+"Create a modular project showcase grid for industrial analytics case studies:
+1. Supply Chain Optimization & Lead Time Analytics (Python, SQL, Tableau)
+2. Predictive Quality Control & Defect Detection (Machine Learning, Excel, Power BI)
+3. Inventory Forecasting & Warehouse Management Dashboard (PostgreSQL, Metabase)
+
+Each card should contain:
+- Live badge status (Completed / In Production)
+- Tech stack tags with glowing hover states
+- Key business impact metrics (e.g., -18% downtime, +24% inventory turnover)
+- Direct action link to Live Demo & GitHub Repository."
+
+--------------------------------------------------------------------------------
+3. PROMPT KOMPONEN INTERAKTIF & FORMULIR KONSULTASI BISNIS
+--------------------------------------------------------------------------------
+"A sleek contact & industrial consultation form with client-side validation:
+- Input fields: Client/Company Name, Corporate Email, Project Scope (Select: 
+  Audit Data, Pipeline ETL, Dashboard BI, Machine Learning), Message.
+- Floating glowing labels, micro-interactions upon field focus, and a response 
+  notification modal.
+- Modern footer with quick navigation links, certification badges, and social links 
+  (LinkedIn, GitHub, Kaggle)."
+
+--------------------------------------------------------------------------------
+CATATAN TAMBAHAN:
+- Simpan tangkapan layar ide / wireframe dari Google Stitch sebagai: konsep-stitch.png
+  di dalam folder 'google-stitch/' ini.
+================================================================================

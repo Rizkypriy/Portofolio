@@ -1,0 +1,30 @@
+================================================================================
+TAUTAN DAN DOKUMENTASI DESAIN PROJEK FIGMA
+================================================================================
+Nama Pengembang : Rizky Priyatama Putra Sugito
+NIM             : 43240461
+Nama Projek     : Perancangan UI/UX Web Portofolio & Sistem Data Industri
+
+--------------------------------------------------------------------------------
+1. TAUTAN DESAIN FIGMA (PUBLIC ACCESS)
+--------------------------------------------------------------------------------
+Tautan File Figma : https://www.figma.com/design/your-figma-file-id-here/Portofolio-Sistem-Industri
+Akses             : Can View / Can Edit (Pastikan pengaturan share adalah 'Anyone with the link can view')
+
+Tautan Prototype  : https://www.figma.com/proto/your-figma-file-id-here/Portofolio-Sistem-Industri?scaling=min-zoom&page-id=0%3A1
+
+--------------------------------------------------------------------------------
+2. SPESIFIKASI DESAIN SISTEM (DESIGN TOKENS & SYSTEM)
+--------------------------------------------------------------------------------
+- Primary Palette   : Dark Slate (#080C16, #101828)
+- Accent Colors     : Electric Cyan (#0EA5E9) & Emerald (#10B981)
+- Typography        : Plus Jakarta Sans (Headings & Body), Fira Code (Monospace/Metrics)
+- Grid System       : 12-Column Responsive Layout (Max width 1200px)
+- Breakpoints       : Desktop (1200px+), Tablet (768px - 1199px), Mobile (<768px)
+
+--------------------------------------------------------------------------------
+3. BERKAS CADANGAN (.FIG)
+--------------------------------------------------------------------------------
+- Berkas cadangan desain Figma (.fig) dapat diletakkan di folder ini dengan nama:
+  figma/desain-projek.fig (opsional, jika ingin mengunggah file backup langsung).
+================================================================================
